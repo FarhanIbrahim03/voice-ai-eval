@@ -195,6 +195,17 @@ TestWER             5 tests   Perfect match, substitution, normalization, edge c
 
 ---
 
+## Generating Sample Audio
+
+The sample audio files are not included in the repository as they are generated files.
+To recreate them, install gTTS and run the generation script:
+```bash
+pip install gtts
+python scratch/generate_audio.py
+```
+
+This will create q1.mp3, q2.mp3, and q3.mp3 inside sample_data/.
+
 ## Dependencies
 
 | Package | Purpose |
