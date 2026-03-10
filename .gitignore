@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Scratch / dev scripts
+scratch/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Reports (generated, not source code)
+reports/
+
+# Audio files (generated)
+sample_data/*.mp3
+sample_data/*.wav
+
+# Pytest cache
+.pytest_cache/
+
+# PyCharm
+.idea/
